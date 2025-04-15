@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enlivened Growth</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section id="services-header"> <!-- Different label from the other files because its the sponsor/service page -->
+      <div class="container">
+        <nav>
+          <div class="logo"><h1>Enlivened Growth</h1></div>
+          <ul class="nav-links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./sponsors.html">Sponsors</a></li>
+            <li><a href="./Help.html">Help</a></li>
+          </ul>
+        </nav>
+
+
+        <div class="header-content"> 
+          <h1>Sprout To BLOOM</h1> <!-- Mini version of our slogan to be added-->
+        </div>
+      </div>
+    </section>
+
+    <section id="services-section" class="container">  
+      <div class="service">
+        <div class="content">
+          <h1>Handyman Remodeling</h1>
+          <p>
+            A local Berks construction buisness who wants to do
+            their part in the community.
+           
+          </p>
+          <button class="primary-btn"><a href="https://www.facebook.com/share/16QhxHMBHq/?mibextid=wwXIfr">Explore</a></button> <!-- 
+          Explore button to be added in case people wanna know more about the people supporting this website-->
+          <!--They don't have a website so I just linked their facebook page-->
+        </div>
+        <img src="./img/Handyman.jpg" alt="Handyman logo" />
+      </div>
+      <div class="service">
+        <img src="./img/Genesis.jpg" />
+
+        <div class="content">
+          <h1> Genesis Hoy </h1>
+          <p>
+            Local berks county Church
+            who helps people in need with their necessities
+          </p>
+          <button class="primary-btn"><a href="https://genesishoy.org">EXPLORE</a></button>
+          <!--Explore button will take them to their own seperate website-->
+        </div>
+      </div>
+      <div class="service">
+        <div class="content">
+          <h1>Coming soon</h1>
+          <p>
+            Local berks landscaping company willing to help those in need.
+          </p>
+          <button class="primary-btn"><a href="https://www.facebook.com/share/16QhxHMBHq/?mibextid=wwXIfr">EXPLORE</a></button>
+          <!-- This company doesn't have a website either but I will include their facebook page aswell-->
+        </div>
+        <img src="./img/Lawn.jpeg" />
+      </div>
+    </section>
+
+    <footer class="container">
+      <ul class="footerlinks">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./services.html">Services</a></li>
+        <li><a href="./Help.html">Help</a></li>
+      </ul>
+      <h1 class="logo">Enlivened Growth</h1>
+      <p>Kaly & Aneleyshka </p> <!-- Founder & Co-Founder -->
+    </footer>
+
+    <script>
+      const menuBtn = document.querySelector(".menu-btn");
+      const navLinks = document.querySelector(".nav-links");
+
+      menuBtn.addEventListener("click", function () {
+        navLinks.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>

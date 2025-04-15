@@ -1,0 +1,107 @@
+<!DOCTYPE html>  <!-- To start it-->
+<html lang="en"> <!-- Language put as english maybe in future can add other languages-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EnlivenedGrowth</title>
+    <link rel="stylesheet" href="styles.css">  <!-- Different file that is css code
+     it's like icing on the cake-->
+  </head>
+  <body>
+    <section id="header"> <!--Important so it connects to the css file-->
+      <div class="container">
+        <nav>
+          <div class="logo"><h1>ENLIVENED GROWTH</h1></div>
+          <ul class="nav"> <!--Nav Links for menu-->
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./sponsors.html">Sponsors</a></li>
+            <li><a href="./Help.html">Help</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-content">
+          <!-- The slogan to be seen once website is open-->
+          <p>SPROUT TODAY
+            </p>
+            <p>
+              BLOOM
+            </p>
+            <p> TOMORROW
+            </p>
+        </div>
+      </div>
+    </section>
+<!--I'm trying to make a little section where upcoming stuff are-->
+<!-- May need to relook-->
+    <section id="services" class="container"> <!-- Same thing as header content it needs to be labeled so it 
+      goes together since this is a different from header content-->
+      <div class="service">
+        <img src="./img/Foodbank.jpg" alt="" />
+        <h1>Upcoming Food Event  </h1>
+        <p>
+          
+        </p>
+      </div>
+      <div class="service">
+        <img src="./img/clothes.jpg" alt="" />
+        <h1>Upcoming Clothes Event</h1>
+        <p>
+          Clothing Closet ministry
+        </p>
+      </div>
+      <div class="service">
+        <img src="./img/JobFair.jpg" alt="" />
+        <h1>Upcoming job fair</h1>
+        <p>
+          Spring 2025 job fair hosted by PA CareerLink Berks County on Monday, 
+          April 21st, from 1:00 PM to 5:00 PM at the DoubleTree By Hilton Reading. 
+        </p>
+      </div>
+    </section>
+
+    <section id="about" class="container">
+      <div class="about-content">
+        <h1>About Us</h1>
+        <p>
+         The goal is to find everyone the peace of having shelter,food, and clothes so that 
+         we all get the chance to bloom.
+        </p>
+      </div>
+      <div class="about-img">
+        <img src="./img/ABT.png" alt="" />
+      </div>
+    </section>
+
+    <section id="talk-to-us">
+      <div class="talk-to-us-content">
+        <h1>TALK TO US</h1>
+        <p>
+          Don't hesitate
+        </p>
+        <button class="primary-btn"><a href="contact.html">GET IN TOUCH</a></button>
+      </div>
+    </section>
+
+<!--Footer to keep it organized and put where links go also putting it to make a menu when scrolling down -->
+    <footer class="container">
+      <ul class="footerlinks">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./sponsors.html">Sponsors</a></li>
+        <li><a href="./Help.html">Help</a></li>
+      </ul>
+      <h1 class="logo">Enlivened Growth</h1>
+      <p>Kaly & Aneleyshka</p>
+    </footer>
+
+    <script>
+      const menuBtn = document.querySelector(".menu-btn");
+      const navLinks = document.querySelector(".nav-links");
+
+      menuBtn.addEventListener("click", function () {
+        navLinks.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
